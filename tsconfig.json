@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "target": "es2019",
+      "module": "commonjs",
+      "removeComments": true,
+      "baseUrl": ".",
+      "outDir": "./bin",
+      "sourceMap": false,
+      "watch": false,
+      "esModuleInterop": true,
+      "noEmitOnError": true,
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "emitDecoratorMetadata": true, 
+      "experimentalDecorators": true,
+      "declaration": true
+  },
+  "exclude": [
+      "node_modules",
+      "dist"
+  ],
+  "compileOnSave": false
+}
